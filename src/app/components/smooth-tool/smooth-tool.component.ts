@@ -1,7 +1,7 @@
 import {ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnChanges, SimpleChanges} from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 import {
-  AddNode,
+  ChildAddNode,
   ProgramPresenter,
   ProgramPresenterAPI,
   RobotSettings,
@@ -67,6 +67,6 @@ export class SmoothToolComponent implements OnChanges, ProgramPresenter {
       insertionRelativeToPivotNode: InsertionEnum.INTO_LAST,
       pivotNodeId: nodeID,
       node: approachNode,
-    } as AddNode);
+    } as ChildAddNode);
   }
 }
