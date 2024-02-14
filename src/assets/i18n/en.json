@@ -1,0 +1,18 @@
+{
+  "program": {
+    "tree": {
+      "nodes": {
+        "smooth-robotics-smooth-tools-smooth-tool": "Smooth Tool",
+        "smooth-robotics-smooth-tools-approach": "Approach"
+      }
+    }
+  },
+  "application": {
+    "nodes": {
+      "smooth-robotics-smooth-tools-smooth-tool-application": {
+        "title": "Smooth Tool Application",
+        "supportiveText": "Smooth Tool Application - Supportive Text"
+      }
+    }
+  }
+}

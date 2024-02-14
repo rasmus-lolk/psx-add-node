@@ -1,0 +1,11 @@
+metadata:
+  vendorID: smooth-robotics
+  urcapID: smooth-tools
+  vendorName: Smooth Robotics
+  urcapName: SmoothTools
+  version: 1.0.0
+artifacts:
+  webArchives:
+  - id: smooth-tools
+    folder: smooth-tools
+    devUrl: http://192.168.65.254:4200/

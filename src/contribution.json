@@ -1,0 +1,28 @@
+{
+  "applicationNodes": [
+    {
+      "translationPath": "assets/i18n/",
+      "behaviorURI": "smooth-tool-application.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "smooth-robotics-smooth-tools-smooth-tool-application"
+    }
+  ],
+  "programNodes": [
+    {
+      "excludeFromToolbox": false,
+      "translationPath": "assets/i18n/",
+      "iconURI": "assets/icons/smooth-tool.svg",
+      "behaviorURI": "smooth-tool.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "smooth-robotics-smooth-tools-smooth-tool"
+    },
+    {
+      "excludeFromToolbox": true,
+      "translationPath": "assets/i18n/",
+      "iconURI": "assets/icons/approach.svg",
+      "behaviorURI": "approach.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "smooth-robotics-smooth-tools-approach"
+    }
+  ]
+}
