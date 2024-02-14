@@ -64,10 +64,9 @@ export class ApproachComponent implements OnChanges, ProgramPresenter {
 
   async createSibling() {
     const approachNode = await this.presenterAPI.builder.createNode('smooth-robotics-smooth-tools-approach');
-    const parentNode = await this.programTree.ancestors.next();
 
-    await this.presenterAPI.programNodeService.addChildNode({
-      insertionRelativeToPivotNode: InsertionEnum.INTO_FIRST,
+    await this.presenterAPI.programNodeService.addNode({
+      insertionRelativeToPivotNode: InsertionEnum.AFTER,
       pivotNodeId: this.presenterAPI.selectedNodeId,
       node: approachNode,
     });
